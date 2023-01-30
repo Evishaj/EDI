@@ -1,0 +1,238 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../aseets/css/style.css">
+    <script src="../aseets/js/myscript.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+    <style>
+      html{
+        box-sizing: border-box;
+      }
+
+      body{
+        background-color: aliceblue;
+        font-family: "poppins" , sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .grid{
+        display: grid;
+        width: 114em;
+        grid-gap: 6rem;
+        grid-template-columns: repeat(auto-fit, minmax(30rem , 1fr));
+        align-items: start;
+      }
+
+      .grid-item{
+        background-color: aliceblue;
+        border-radius: 0.4rem;
+        overflow: hidden;
+        box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: 0,2s;
+      }
+
+      .grid-item:hover{
+        transform: translateY(-0.5%);
+        box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+      }
+
+      .grid-img{
+        display: block;
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+      }
+
+      .card-content{
+        padding: 3rem;
+      }
+
+      .card-header{
+        font-size: 3rem;
+        font-weight: 500;
+        color: #0d0d0d;
+        margin-bottom: 1.5rem;
+      }
+
+      .card-text{
+       font-size: 1.0rem;
+       line-height: 1.7;
+       color: #3d3d3d;
+       margin-bottom: 2.5rem;
+      }
+
+      .card-btn {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+        border: none;
+        border-radius: 0.4rem;
+        transition: 0.2s;
+        cursor: pointer;
+        letter-spacing: 0.1rem;
+      }
+
+      .card-btn span{
+        margin-left: 1rem;
+        transition: 0.2s;
+      }
+
+      .card-btn:hover,
+      .card-btn:active{
+        background-color: #c2cffc;
+      }
+
+      .card-btn:hover span,
+      .card-btn:active span{
+        margin-left: 1.5rem;
+      }
+
+     @media screen, (max-width:60em){
+      
+     
+        body{
+          padding: 3.5rem;
+
+        }
+        .grid{
+          grid-gap: 3rem;
+        }
+        
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-warning">Be</span>You</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wheel.html">Wheel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html">Price</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    </div>
+    
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="../aseets/image/66.jpeg" alt="wheel" >
+          <div class="card-content">
+            <h1 class="card-header" id="Mo">Mo</h1>
+            <p class="card-text">The electric wheel hub motor was raced by Ferdinand Porsche in 1897 in Vienna, Austria. Porsche's first engineering training was electrical, not internal combustion based. As a result, he developed his first cars as electric cars with electric wheel hub motors that ran on batteries. The Lohner Porsche, fitted with one wheel motor in each of the front wheels, appeared at the World Exhibition in Paris in 1900 and created a sensation in the young automobile world. In the following years, 300 Lohner Porsches were.</p>
+            <button class="card-btn">
+              WHEEEL 
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="../aseets/image/887.jpeg" alt="wheel" href="https://www.lamborghini.com" target="_self" >
+          <div class="card-content">
+            <h1 class="card-header" id="La">La</h1>
+            <p class="card-text">Automobili Lamborghini S.p.A. is an Italian automobile manufacturer that produces high-end (exotic) sports cars and SUVs. It was founded in 1963 by Ferrucio Lamborghini an Italian manufacturing magnate, founded Automobili Ferruccio Lamborghini S.p.A. in 1963 to compete with Ferrari. The company was noted for using a rear mid-engine, rear-wheel drive layout. Lamborghini grew rapidly during its first decade, but sales plunged in the wake of the 1973 worldwide financial downturn and the oil crisis.</p>
+            <button class="card-btn">
+              <id>WHEEL</id>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="../aseets/image/97.jpeg" alt="wheel" >
+          <div class="card-content">
+            <h1 class="card-header" id="Au">Au</h1>
+            <p class="card-text">The Audi quattro GTO was a specialized version of the quattro intended for racing in the IMSA GT Championship. Entered into the 1989 IMSA GT Championship by Audi of America and driven by Hans-Joachim Stuck, the quattro GTO was essentially a standard Group B Audi quattro with a silhouette bodyshell and an all-wheel drive drivetrain. The car's 2.2L turbocharged flat-5 could produce 720 horsepower and was very successful, winning seven of thirteen races; despite this, Audi lost to Roush Racing.</p>
+            <button class="card-btn">
+              WHEEL 
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+  <script>
+   var x=Mo
+   var R=La
+   var E=Au
+     var x = document.querySelectorAll("card-header");
+    document.getElementById("La").innerHTML= "Lamborghini"
+    document.getElementById("Mo").innerHTML= "Motor"
+    document.getElementById("Au").innerHTML= "Audi"
+    
+
+
+
+  //  navbar - document.querySelectorAll('.navbar').querySelectorAll('a');
+   console.log(navbar);
+
+   navbar.array.forEach(element => {
+    element.addEventlistener("click", function(){
+      navbar.forEach(nav=>nav.classlist.remove("active"))
+      this.classlist.add("active");
+    })
+   });
+
+
+
+
+
+    const M=documentquerySelector('.motor');
+    const L=documentquerySelector('.lamborghini');
+    const A=documentquerySelector('.audi');
+
+    add.addEventlistener('click', () =>{
+      L.classlist.A('bg');
+     
+    })
+
+    add.addEventlistener('click', () =>{
+      L.classlist.L('bg');
+     
+    })
+
+    add.addEventlistener('click', () =>{
+      L.classlist.M('bg');
+     
+    })
+    
+  </script>
+</html>
+
+
+
+
