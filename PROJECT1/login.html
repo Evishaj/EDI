@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+            }
+            body{
+                background: url(../PROJECT1/image/99.webp) no-repeat;
+                background-size: cover;
+                color: black;
+                
+            }
+            .registration-form{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 400px;
+            }
+            .registration-form h1{
+                font-size: 40px;
+                text-align: center;
+                text-transform: uppercase;
+                margin: 40px 0;
+            }
+            .registration-form p{
+                font-size: 20px;
+                margin: 15px 0;
+            }
+            .registration-form input{
+                font-size: 16px;
+                padding: 15px 10px;
+                width: 100%;
+                border: 0;
+                border-radius: 5px;
+                outline: none;
+            }
+          
+            .registration-form button{
+                font-size: 18px;
+                font-weight: bold;
+                margin: 20px 0;
+                padding: 10px 15px;
+                width: 50%;
+                border: 0;
+                border-radius: 5px;
+                background-color: white;
+            }
+            .registration-form button:hover{
+              color: blue;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="registration-form">
+            <h1>Registration</h1>
+            <form action="#" method="post">
+                <p>Full Name:</p>
+                <input type="text" name=" fullname" placeholder="Fullname">
+                <p>User Name:</p>
+                <input type="text" name="username" placeholder="Username">
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Email">
+                <p>password:</p>
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Log in</button>
+
+            </form>
+
+        </div>
+    </body>
+</html>
